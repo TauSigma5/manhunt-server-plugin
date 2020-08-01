@@ -1,0 +1,15 @@
+main: com.tauflight.spigot.auto_refresh.App
+name: refresh_server
+version: 0.0.1
+author: TauSigma5
+api-version: 1.13
+commands:
+   refreshserver:
+      description: Shuts down the server, deletes current world and boots the server with a new world
+      usage: /<command>
+   ishoe:
+      description: Gives hoe to someone you think is a hoe
+      usage: /<command> <target> <message>
+   switchversion:
+      description: restarts the server with the specified version and resets the world.
+      usage: /<command> <message>
